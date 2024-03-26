@@ -6,4 +6,22 @@
         St. John Ambulance (2023). <i>First Aid<br/>\tReference Guide</i> (1st ed).<br/>
             \t<b>ISBN</b>: 9781897513002.<br/>\t<b>SJA Stock</b>: 6504–23]]></string>
     <string name="dismiss">Dismiss</string>
+    <string name="categorySelect">Select a First Aid Category:</string>
+
+    <string-array name="mainMenu">
+        <item>Introduction to First Aid</item>
+        <item>Emergency Scene Management (ESM)</item>
+        <item>Airway/Breathing Emergencies</item>
+        <item>Cardiovascular Emergencies</item>
+        <item>CPR/AED</item>
+        <item>First Aid Tools</item>
+        <item>Major Injuries</item>
+        <item>Minor Injuries</item>
+        <item>Bone, Joint and Muscle Injuries</item>
+        <item>Head and Spinal Injuries</item>
+        <item>Mental Health Awareness</item>
+        <item>Medical Emergencies</item>
+        <item>Environmental Injuries and Illnesses</item>
+        <item>Poisoning Emergencies</item>
+    </string-array>
 </resources>
