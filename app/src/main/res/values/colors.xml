@@ -2,4 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="SJAGreen">#FF177E4B</color>
+    <color name="SJAGreenContainer">#FFE6F5ED</color>
 </resources>
