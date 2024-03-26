@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">FirstAidCPR-Android</string>
+    <string name="app_name">First Aid/CPR</string>
+    <string name="aboutTitle">About</string>
+    <string name="aboutMessage"><![CDATA[<b>Author</b>: Johnny Console<br/><br/>
+        <b>Sources:</b><br/>
+        St. John Ambulance (2023). <i>First Aid<br/>\tReference Guide</i> (1st ed).<br/>
+            \t<b>ISBN</b>: 9781897513002.<br/>\t<b>SJA Stock</b>: 6504–23]]></string>
+    <string name="dismiss">Dismiss</string>
 </resources>
