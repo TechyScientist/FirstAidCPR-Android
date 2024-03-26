@@ -6,16 +6,27 @@ import android.os.Bundle
 import android.text.Html
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
+import android.widget.AdapterView
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import com.johnnyconsole.android.firstaidcpr.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
+        binding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(binding.root)
 
         val actionBar = supportActionBar!!
         actionBar.setBackgroundDrawable(ColorDrawable(getColor(R.color.SJAGreenContainer)))
 
+        binding.lvMenu.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
+                Toast.makeText(this@MainActivity, binding.lvMenu.getItemAtPosition(position).toString(), Toast.LENGTH_LONG).show()
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
