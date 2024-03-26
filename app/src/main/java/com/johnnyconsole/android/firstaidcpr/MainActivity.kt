@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         if (item.itemId == R.id.about) {
             AlertDialog.Builder(this)
                 .setTitle(R.string.aboutTitle)
-                .setMessage(Html.fromHtml(getString(R.string.aboutMessage)))
+                .setMessage(Html.fromHtml(getString(R.string.aboutMessage), 0))
                 .setNeutralButton(R.string.dismiss, null)
                 .create()
                 .show()
