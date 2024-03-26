@@ -1,5 +1,6 @@
 package com.johnnyconsole.android.firstaidcpr
 
+import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Html
@@ -11,6 +12,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val actionBar = supportActionBar!!
+        actionBar.setBackgroundDrawable(ColorDrawable(getColor(R.color.SJAGreenContainer)))
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
